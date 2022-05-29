@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 html,
 body {
   padding: 0;
@@ -16,6 +19,7 @@ body {
 a {
   color: #1f5845;
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
